@@ -117,19 +117,44 @@
   }
   </script>
 
-  <!-- Structured Data: Organization -->
+  <!-- Structured Data: Organization with Geo -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Studio One守护者",
+    "alternateName": "Studio One Guardian",
     "url": "https://converttools.site/",
     "description": "专业的Studio One软件封装与加密解决方案提供商，致力于保护音频创作者的知识产权。",
+    "email": "support@converttools.com",
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
       "availableLanguage": ["Chinese", "English"],
       "email": "support@converttools.com"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "CN",
+      "addressRegion": "Beijing",
+      "addressLocality": "Beijing"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "China"
+    },
+    "location": {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.86166,
+        "longitude": 104.195397
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CN",
+        "addressRegion": "Beijing"
+      }
     }
   }
   </script>
@@ -3046,6 +3071,18 @@
 
   <!-- Sogou Verification (replace code after registration) -->
   <meta name="sogousiteverification" content="sogou-code-pending">
+
+  <!-- GEO Meta Tags (地理定位SEO) -->
+  <meta name="geo.region" content="CN">
+  <meta name="geo.placename" content="China">
+  <meta name="geo.position" content="35.86166;104.195397">
+  <meta name="ICBM" content="35.86166, 104.195397">
+  <meta name="geo.country" content="CN">
+  <meta name="geo.state" content="Beijing">
+
+  <!-- Content Language -->
+  <meta http-equiv="content-language" content="zh-CN">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 
   <!-- PWA Manifest -->
   <link rel="manifest" href="manifest.json">
