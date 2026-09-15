@@ -1,6 +1,47 @@
+# ==============================
+# AI 搜索引擎爬虫 - 全部允许
+# ==============================
+
+# OpenAI / ChatGPT
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Google AI Overviews (via Googlebot)
+User-agent: Googlebot
+Allow: /
+
+# Bing / Copilot
+User-agent: bingbot
+Allow: /
+
+# 百度 / 文心一言
+User-agent: Baiduspider
+Allow: /
+
+# 其他所有爬虫
 User-agent: *
 Allow: /
-Disallow:
 
 # Sitemap
 Sitemap: https://converttools.site/sitemap.xml

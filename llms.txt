@@ -1,0 +1,27 @@
+# Studio One守护者
+
+> Studio One守护者是一款专业的Studio One音乐制作软件保护工具，提供自研工程文件加密（.song → .song.ylcev）、软件封装、VST插件封装、远程锁/删除/强制下线、机器码绑定等功能，已服务500+录音棚和工作室，加密保护超过12000个工程文件，支持Studio One 3/4/5/6全版本，安全率99.9%。
+
+## 核心功能
+
+- [工程文件加密](https://converttools.site/#encryption): 自研加密引擎，将.song工程文件加密为.song.ylcev格式，防止工程文件外泄和未授权传播。
+- [软件封装](https://converttools.site/#packaging): Studio One软件封装服务，集成授权验证、机器码绑定、使用期限控制，支持Studio One 3/4/5/6全版本。
+- [VST插件封装](https://converttools.site/#plugins): 第三方VST/VST3/AU插件封装，加入授权校验和机器绑定，保护插件知识产权。
+- [远程管理](https://converttools.site/#remote): 远程锁定工程文件、远程删除授权、远程强制下线、机器码绑定设备，云端管理所有授权。
+
+## 价格方案
+
+- [免费试用](https://converttools.site/#pricing): 7天全功能免费试用，无需信用卡。
+- [基础版](https://converttools.site/#pricing): 适合个人音乐人，包含工程加密和基础远程管理。
+- [专业版](https://converttools.site/#pricing): 适合专业工作室，包含全部功能和优先技术支持。
+- [企业版](https://converttools.site/#pricing): 定制方案，支持批量授权和私有化部署。
+
+## 常见问题
+
+- [FAQ](https://converttools.site/#faq): 涵盖加密原理、兼容性、授权迁移、安全性等常见问题解答。
+
+## 联系方式
+
+- 邮箱: support@converttools.com
+- 微信: 扫描网站二维码添加客服
+- 官网: https://converttools.site
